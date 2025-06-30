@@ -82,11 +82,11 @@ function DataTable() {
             <tr key={user.id} style={{ borderBottom: '1px solid #333' }}>
               <td style={tdStyle}>{user.username}</td>
               <td style={tdStyle}>{user.class_code}</td>
-              <td style={tdStyle}>{user.week1done ? '✅' : '❌'}</td>
-              <td style={tdStyle}>{user.week2done ? '✅' : '❌'}</td>
-              <td style={tdStyle}>{user.week3done ? '✅' : '❌'}</td>
-              <td style={tdStyle}>{user.week4done ? '✅' : '❌'}</td>
-              <td style={tdStyle}>{user.week5done ? '✅' : '❌'}</td>
+              <td style={tdStyle}>{user.week1 ? '✅' : '❌'}</td>
+              <td style={tdStyle}>{user.week2 ? '✅' : '❌'}</td>
+              <td style={tdStyle}>{user.week3 ? '✅' : '❌'}</td>
+              <td style={tdStyle}>{user.week4 ? '✅' : '❌'}</td>
+              <td style={tdStyle}>{user.week5 ? '✅' : '❌'}</td>
               <td style={tdStyle}>
                 <button
                   onClick={() => setUserToDelete(user)}
