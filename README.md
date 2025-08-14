@@ -24,7 +24,6 @@ The Admin app communicates with the **Backend** service to fetch and manage stud
 - [React Router](https://reactrouter.com/)  
 - [Axios](https://axios-http.com/)  
 - [React Scripts](https://www.npmjs.com/package/react-scripts)  
-- [Testing Library](https://testing-library.com/)  
 
 ## Getting Started
 
