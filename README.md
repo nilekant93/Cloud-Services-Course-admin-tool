@@ -35,7 +35,7 @@ The Admin app communicates with the **Backend** service to fetch and manage stud
 ### Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/cloud-services-course-admin.git
+git clone https://github.com/nilekant93/cloud-services-course-admin.git
 cd cloud-services-course-admin
 cd admin-app
 ````
